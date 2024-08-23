@@ -1552,12 +1552,12 @@ select {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .hero--section--images {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   .hero--section--image {
-    width: 80%; /* Adjust size for smaller screens */
+    width: 25%; /* Adjust size for smaller screens */
     margin-bottom: 15px; /* Space between images */
   }
 

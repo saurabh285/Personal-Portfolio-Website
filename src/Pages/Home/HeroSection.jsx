@@ -34,17 +34,17 @@ export default function HeroSection(){
                 </a>
                      </p>
                 </div>
-                
+                <div className="hero--section--images">
+                <img src={hpeImage} alt="Hewlett Packard Enterprise" className="hero--section--image" />
+                <img src={nusImage} alt="National University of Singapore" className="hero--section--image" />
+                <img src={ntuImage} alt="Nanyang Technological University" className="hero--section--image" />
+            </div>
        
             </div>                
             <div className="hero--section--img">
                 <img src="./img/img6.png" alt="Hero Section" />
             </div>
-            <div className="hero--section--images">
-                <img src={hpeImage} alt="Hewlett Packard Enterprise" className="hero--section--image" />
-                <img src={nusImage} alt="National University of Singapore" className="hero--section--image" />
-                <img src={ntuImage} alt="Nanyang Technological University" className="hero--section--image" />
-            </div>
+            
         </section>
     )
 }
