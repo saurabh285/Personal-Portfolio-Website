@@ -1,0 +1,279 @@
+{
+    "jobs": [
+        [
+            {
+                "id": 1,
+                "title": "Research Engineer – Data Science",
+                "company": "Nanyang Technological University Singapore",
+                "time": "May 2024 – Present",
+                "place": "Singapore",
+                "task": [
+                    "Developed innovative solutions for data mining of text, stickers, images, and videos on Telegram, enhancing data extraction and analysis capabilities.",
+                    "Engineered large language model (Llama) to predict user roles and information cascade patterns, improving understanding of user behaviour and information dissemination.",
+                    "Collaborated with a multi-disciplinary research team while independently managing tasks, contributing to successful project outcomes and fostering a collaborative work environment."
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Software Engineer – Full Stack and Data Engineering",
+                "company": "Hewlett-Packard Enterprise",
+                "time": "Aug 2019 – Oct 2021",
+                "place": "Bengaluru, India",
+                "task": [
+                    "Spearheaded StoreEasy Management Console (SEMC) development, leading a scalable and reusable data pipeline creation, enhancing software quality by 40% in 4 Feature Program releases with clean and maintainable code.",
+                    "Orchestrated Agile development with Jira-Kanban in a 14-member team and SREs, ensuring efficient project implementation.",
+                    "Applied CI/CD (GitHub Actions) and Jenkins for streamlined software delivery, achieving a 10% profit amid Covid.",
+                    "Engineered reusable UI components in React/Node JS, optimizing UI/UX analyzing multi-terabyte telemetry datasets."
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Research Assistant Intern",
+                "company": "NUS Human Computer Interaction Lab",
+                "time": "Jul 2022 – Nov 2023",
+                "place": "Singapore",
+                "task": [
+                    "Collaborated with PhDs and Research Assistants on Project Eye gaze, conducting experiments and user studies to analyze large eye gaze datasets and utilizing user gaze to mark boundaries in images.",
+                    "Conducted comparative analysis of ML models (SVM, Decision Trees) and neural network architectures (CNN, LSTM, Transformer) for EyeGaze improvement, achieving ~99% accuracy."
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Software Engineer Intern – Full Stack",
+                "company": "Hewlett-Packard Enterprise",
+                "time": "Jan 2019 – Jul 2021",
+                "place": "Bengaluru, India",
+                "task": [
+                    "Designed and developed UX screens for SEMC using Invision, implemented on React JS for client-side development.",
+                    "Achieved 100% backlog defect clearance as a full stack developer refactoring existing legacy codebase.",
+                    "Leveraged Pytest for unit testing for quality assurance and Grafana/Kibana for system monitoring in 2 Feature Releases."
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Software Developer Intern",
+                "company": "Webnish Software Solutions Pvt Ltd",
+                "time": "Jun 2017 – Jul 2017",
+                "place": "Bengaluru, India",
+                "task": [
+                    "Developed an interactive blogging platform using Atom, achieving a 40% faster deployment rate, demonstrating efficiency.",
+                    "Implemented user authentication functionalities, enhancing user engagement and trust, while seamlessly managing user inputs with Azure SQL Database and A/B testing to enhance functionality for server-side development."
+                ]
+            }
+        ]
+        
+    ],
+
+    "skills": [
+    {
+        "id": 1,
+        "src": "./img/product-chain-1.png",
+        "title": "Research",
+        "skills": "Graph neural Networks, Deep Neural Networks, Machine Learning, Dynamic Programming, Pandas & NumPy, Support vector Machines, Data Analysis, Pytorch.",
+        "description": [
+            "Thesis titled Eye-gaze Recognition model achieving a 98% accuracy rate using GCN, surpassing benchmarks like ANN and CNN.",
+            "Another thesis focused on detecting facial fraud, yielding a paper accepted by the International Journal of Engineering and Advanced Technology in 2019."
+        ]
+    },
+    {
+        "id": 2,
+        "src": "./img/tag-1.png",
+        "title": "AI/ML",
+        "skills": "NLP, LLM, Generative AI, Time series prediction, Big data analysis, SQL, Pytorch, Tensorflow.",
+        "description": [
+            "I've tackled diverse projects, predicting crime rates in Chicago using Facebook Prophet.",
+            "Analyzed news trends with sentiment lexicon.",
+            "Created a Generative AI Self-Introduction App for real-time Q&A based on life narratives.",
+            "Engineered models for time series market prediction and LeNet image classification.",
+            "Designed an NLP project for spam message classification."
+        ]
+    },
+    {
+        "id": 3,
+        "src": "./img/feather-pen-1.png",
+        "title": "Software Development",
+        "skills": "JavaScript, Node Js, React Js, C#, .Net, Jira, Jenkins, SQL.",
+        "description": [
+            "Experienced in software engineering, with development work on the StoreEasy Management Console at Hewlett Packard Enterprise.",
+            "Proficient in end-to-end website development through a web developer internship at Webnish Software Solutions.",
+            "Contributed to implementing CI/CD practices, fostering international user engagement, and adding new features in multiple program releases."
+        ]
+    },
+    {
+        "id": 4,
+        "src": "./img/feather-pen-2.png",
+        "title": "UI/UX",
+        "skills": "Figma, Invision, JavaScript, React Js, Jenkins.",
+        "description": [
+            "As a full-stack developer, I bring expertise in UX/UI design, unit testing, and system observability.",
+            "Designed UX/UI for the SEMC on Invision and Figma.",
+            "Developed on React JS across 2 Support Program Releases."
+        ]
+    }
+],
+"certifications": [
+    {
+        "id": 1,
+        "title": "Career Essentials in Generative AI",
+        "issuer": "Microsoft and LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 2,
+        "title": "Ethics in the Age of Generative AI",
+        "issuer": "LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 3,
+        "title": "Generative AI: The Evolution of Thoughtful Online Search",
+        "issuer": "LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 4,
+        "title": "Introduction to Artificial Intelligence",
+        "issuer": "LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 5,
+        "title": "Learning Microsoft 365 Copilot",
+        "issuer": "LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 6,
+        "title": "Streamlining Your Work with Microsoft Copilot",
+        "issuer": "LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 7,
+        "title": "What Is Generative AI?",
+        "issuer": "LinkedIn",
+        "issued_date": "Mar 2024"
+    },
+    {
+        "id": 8,
+        "title": "Docker & Kubernetes: The Complete Developer's Guide",
+        "issuer": "Udemy",
+        "issued_date": "Feb 2024"
+    },
+    {
+        "id": 9,
+        "title": "Microsoft Azure AI Fundamentals",
+        "issuer": "Microsoft",
+        "issued_date": "Jul 2022"
+    },
+    {
+        "id": 10,
+        "title": "Microsoft Certified Azure Fundamentals",
+        "issuer": "Microsoft",
+        "issued_date": "May 2022"
+    },
+    {
+        "id": 11,
+        "title": "ACM Summer School on Data Science at Goa University",
+        "issuer": "Association for Computing Machinery",
+        "issued_date": "Jun 2018"
+    },
+    {
+        "id": 12,
+        "title": "Introduction to Data Science in Python",
+        "issuer": "Coursera",
+        "issued_date": "Mar 2018"
+    },
+    {
+        "id": 13,
+        "title": "Applied Machine Learning in Python",
+        "issuer": "Coursera",
+        "issued_date": "Feb 2018"
+    }
+],
+
+    "portfolio":[
+        {
+
+            "id": 1,
+            "src": "./img/t1.png",
+            "title": "Thesis - Eye-Gaze Pattern Recognition",
+            "description": "Developed a high-accuracy eye gaze recognition model with 98% precision using graph neural networks and dynamic programming. Implemented an innovative data processing approach with a dataset of 10 gestures. Achieved 97.67% accuracy, outperforming existing models such as ANN, CNN, GRU, LSTM, and GCN in comparative analyses."
+            
+        },
+        {
+
+            "id": 2,
+            "src": "./img/t2.png",
+            "title": "Thesis - Improved Colour Texture Based Face Spoofing Detection",
+            "description": "Developed a facial fraud detection strategy for authentication systems by analyzing component characteristics and managing large datasets using OpenCV. Applied feature extraction methods (CoALBP, LBP, LPQ, BSIF, SIFT), clustered data with machine learning algorithms, and visualized results in 2D/3D plots on MATLAB. Conducted quantitative image analysis and published findings in the International Journal of Engineering and Advanced Technology, 2019."
+        },
+        {
+
+            "id": 3,
+            "src": "./img/pr1.png",
+            "title": "Time Series Prediction",
+            "description": "Developed a comprehensive time series prediction model for crime rates in Chicago (2001-2017) using Facebook Prophet",
+            "link": "https://github.com/saurabh285/Time-series-crime-prediction"
+        },
+        {
+
+            "id": 4,
+            "src": "./img/p2.png",
+            "title": "Big data News analysis",
+            "description": "Designed project analyzing social media trends in news topics, utilizing sentiment lexicon and clustering",
+            "link": "https://github.com/saurabh285/News-Popularity-Analysis"
+        },
+        {
+
+            "id": 5,
+            "src": "./img/p3.jpeg",
+            "title": "Generative AI self introduction APP",
+            "description": "Implemented a personal interactive language model(LLM) application, enabling users to engage in real-time Q&A sessions with dynamically generated responses based on a life narrative text file.",
+            "link": "https://github.com/saurabh285/Generative-AI-Self-Introduction-App"
+        }
+    ],
+    "portfolio2":[
+        {
+
+            "id": 1,
+            "src": "./img/p4.png",
+            "title": "Time series Market prediction",
+            "description": "Engineered a time series prediction model for commodity market prices, utilizing advanced analytics and Facebook Prophet.",
+            "link": "https://github.com/saurabh285/Time-series-Market-prediction"
+        },
+        {
+
+            "id": 2,
+            "src": "./img/p5.png",
+            "title": "Le-Net Image Classification",
+            "description": "Implemented a LeNet neural network for multi-class classification, achieving accurate predictions across 43 classes in a dataset",
+            "link": "https://github.com/saurabh285/Le-Net-Classification"
+        },
+        {
+
+            "id": 3,
+            "src": "./img/p6.png",
+            "title": "Natural Language Processing(NLP) Spam filtering",
+            "description": "Designed a NLP project for effective spam message classification",
+            "link": "https://github.com/saurabh285/NLP-SMS-Filtering"
+        }
+    ],
+    "thesis":[
+        {
+
+            "id": 1,
+            "src": "./img/t1.png",
+            "title": "Thesis - Eye-Gaze Pattern Recognition",
+            "description": "Developed a high-accuracy eye gaze recognition model with 98% precision using graph neural networks and dynamic programming. Implemented an innovative data processing approach with a dataset of 10 gestures. Achieved 97.67% accuracy, outperforming existing models such as ANN, CNN, GRU, LSTM, and GCN in comparative analyses."
+            
+        },
+        {
+
+            "id": 2,
+            "src": "./img/t2.png",
+            "title": "Thesis - Improved Colour Texture Based Face Spoofing Detection",
+            "description": "Developed a facial fraud detection strategy for authentication systems by analyzing component characteristics and managing large datasets using OpenCV. Applied feature extraction methods (CoALBP, LBP, LPQ, BSIF, SIFT), clustered data with machine learning algorithms, and visualized results in 2D/3D plots on MATLAB. Conducted quantitative image analysis and published findings in the International Journal of Engineering and Advanced Technology, 2019."
+        }
+    ]
+}
