@@ -94,6 +94,11 @@ p {
 }
 
 
+.viewgithub {
+  /* Optional styling */
+  font-size: 16px;
+  color: #000; /* Change to your preferred color */
+}
 .github-icon {
     width: 32px; /* Adjust size as needed */
     height: 32px; /* Adjust size as needed */
@@ -933,9 +938,7 @@ select {
   line-height: 50px; /* Adjust font weight as needed */
 }
 
-.experience--section--details {
 
-}
 /* Responsive Styles for Skills Section */
 @media only screen and (max-width: 1200px) {
   .skills--section {
@@ -1241,6 +1244,7 @@ select {
   color: #007bff;
   text-decoration: none;
   transition: color 0.3s ease;
+  text-align: center;
 }
 
 .portfolio--link a:hover {

@@ -75,9 +75,16 @@ export default function MyPortfolio() {
                             </div>
                             <p className="text-sm portfolio--link">
                                 {item.link ? (
-                                    <a href={item.link}>
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <a href={item.link} style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
                                         <img src={GitHubIcon2} alt="GitHub" className='github-icon' />
+                                        <span className='viewgithub' style={{ marginLeft: '8px', verticalAlign: 'middle', color: '#000' }}>
+                                            View in GitHub
+                                        </span>
                                     </a>
+                                </div>
+                                
+                                
                                 ) : (
                                     <Link
                                         // onClick={closeMenu}

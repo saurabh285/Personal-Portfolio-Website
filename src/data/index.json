@@ -8,22 +8,18 @@
                 "time": "May 2024 – Present",
                 "place": "Singapore",
                 "task": [
-                    "Developed innovative solutions for data mining of text, stickers, images, and videos on Telegram, enhancing data extraction and analysis capabilities.",
-                    "Engineered large language model (Llama) to predict user roles and information cascade patterns, improving understanding of user behaviour and information dissemination.",
-                    "Collaborated with a multi-disciplinary research team while independently managing tasks, contributing to successful project outcomes and fostering a collaborative work environment."
+                    "Developed advanced data mining techniques for analyzing text, stickers, images, and videos on Telegram, improving data extraction and analysis efficiency.","Engineered large language models (LLaMA) to predict user roles and information dissemination patterns, enhancing the understanding of user behavior.", "Collaborated with multi-disciplinary research teams to deliver successful project outcomes while independently managing key tasks."
                 ]
             },
             {
                 "id": 2,
-                "title": "Software Engineer – Full Stack and Data Engineering",
+                "title": "Software Engineer – Full Stack    ",
                 "company": "Hewlett-Packard Enterprise",
                 "time": "Aug 2019 – Oct 2021",
                 "place": "Bengaluru, India",
                 "task": [
-                    "Spearheaded StoreEasy Management Console (SEMC) development, leading a scalable and reusable data pipeline creation, enhancing software quality by 40% in 4 Feature Program releases with clean and maintainable code.",
-                    "Orchestrated Agile development with Jira-Kanban in a 14-member team and SREs, ensuring efficient project implementation.",
-                    "Applied CI/CD (GitHub Actions) and Jenkins for streamlined software delivery, achieving a 10% profit amid Covid.",
-                    "Engineered reusable UI components in React/Node JS, optimizing UI/UX analyzing multi-terabyte telemetry datasets."
+                    "Led the development of StoreEasy Management Console (SEMC), improving software quality by 15% across 4 support program releases and reducing post-release bug reports by 34%.", "Engineered ETL pipelines and reusable UI components in React/Node.js, enhancing system robustness and user experience within cross-functional teams.", "Implemented Agile methodologies and CI/CD practices using GitHub and Jenkins, which resulted in a 40% reduction in time-to-market and increased international user engagement."
+
                 ]
             },
             {

@@ -27,8 +27,8 @@ export default function ContactMe() {
 
     emailjs
       .send(
-        '',
-        '',
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: 'Saurabh Singh',
@@ -36,7 +36,7 @@ export default function ContactMe() {
           to_email: 'ssportfolio285@gmail.com',
           message: form.message,
         },
-        ''
+        process.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
         () => {
