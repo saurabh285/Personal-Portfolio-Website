@@ -47,11 +47,12 @@ export default function Experience() {
                     <div key={job.id} className='experience--section--card'>
                         <div className='experience--card'>
                             <h3 className='experience--section--title'>{job.title}</h3>
-                            <h4 className='experience--section--company'>{job.company}</h4>
-                            <h4 className='experience--section--time'>{job.time}</h4>
-                            <h4 className='experience--section--place'>{job.place}</h4>
+                            <h4 className='experience--section--company' style={{ fontStyle: 'italic' }}>{job.company}</h4>
+                            <h4 className='experience--section--time' style={{ fontStyle: 'italic' }}>{job.time}</h4>
+                            <h4 className='experience--section--place' style={{ fontStyle: 'italic' }}>{job.place}</h4>
+                            <br/>
                             <div className='experience--section--tasks'>
-                                <b>TASKS:</b>
+                                <b>Responsibilities:</b>
                                 <ul>
                                     {job.task.map((task, index) => (
                                         <li key={index}>{task}</li>

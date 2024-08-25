@@ -454,7 +454,7 @@ h11{
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0,0,0,0.15);
     /* cursor: pointer; */
-    border-radius: 18px;
+    /* border-radius: 18px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -1316,7 +1316,7 @@ select {
 .aboutme--section--card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 32px;
   background: var(--white);
   box-shadow: 0 0 32px 0 rgba(0,0,0,0.15);
@@ -1387,18 +1387,20 @@ select {
 }
 .aboutme--images {
   display: flex;
-  flex-wrap: wrap; /* Allows images to wrap to the next line if necessary */
-  justify-content: center; /* Center images within the container */
+  justify-content: center;
   align-items: center;
-  gap: 15px; /* Space between images */
-  margin-top: 20px; /* Adjust spacing from the text */
+  gap: 10px; /* Adjust the gap between images */
+  flex-wrap: wrap; /* Allows images to wrap if needed */
 }
 
 .aboutme--image {
-  width: 20%; /* Fixed width for better control */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 15px; /* Round the edges of the images */
+  width: 250px; /* Set a fixed width */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  border-radius: 8px; /* Optional: Adds a small border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

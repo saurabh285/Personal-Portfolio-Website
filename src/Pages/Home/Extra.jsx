@@ -51,15 +51,12 @@ export default function AboutMe() {
                         </p>
                     </div>
                     <div className='aboutme--images'>
-                    <img src={medals} alt='Medals' className='aboutme--image' />
-                    
-                    <img src={run1} alt='Running 1' className='aboutme--image' />
-                    <img src={run2} alt='Running 2' className='aboutme--image' />
-                    <img src={football} alt='Football' className='aboutme--image' />
+                        <img src={medals} alt='Medals' className='aboutme--image' />
+                        <img src={run1} alt='Running 1' className='aboutme--image' />
+                        <img src={run2} alt='Running 2' className='aboutme--image' />
+                        <img src={football} alt='Football' className='aboutme--image' />
+                    </div>
                 </div>
-                </div>
-                
-                
             </div>
         </section>
     );

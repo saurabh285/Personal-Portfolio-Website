@@ -8,7 +8,7 @@
                 "time": "May 2024 – Present",
                 "place": "Singapore",
                 "task": [
-                    "Developed advanced data mining techniques for analyzing text, stickers, images, and videos on Telegram, improving data extraction and analysis efficiency.","Engineered large language models (LLaMA) to predict user roles and information dissemination patterns, enhancing the understanding of user behavior.", "Collaborated with multi-disciplinary research teams to deliver successful project outcomes while independently managing key tasks."
+                    "Developed advanced data mining techniques for analyzing text, stickers, images, and videos on Telegram, improving data extraction and analysis efficiency.","Engineered large language models (Llama) to predict user roles and information dissemination patterns, enhancing the understanding of user behavior.", "Collaborated with multi-disciplinary research teams to deliver successful project outcomes while independently managing key tasks."
                 ]
             },
             {
@@ -127,12 +127,6 @@
         "issued_date": "Mar 2024"
     },
     {
-        "id": 4,
-        "title": "Introduction to Artificial Intelligence",
-        "issuer": "LinkedIn",
-        "issued_date": "Mar 2024"
-    },
-    {
         "id": 5,
         "title": "Learning Microsoft 365 Copilot",
         "issuer": "LinkedIn",
@@ -144,12 +138,7 @@
         "issuer": "LinkedIn",
         "issued_date": "Mar 2024"
     },
-    {
-        "id": 7,
-        "title": "What Is Generative AI?",
-        "issuer": "LinkedIn",
-        "issued_date": "Mar 2024"
-    },
+
     {
         "id": 8,
         "title": "Docker & Kubernetes: The Complete Developer's Guide",
@@ -174,12 +163,7 @@
         "issuer": "Association for Computing Machinery",
         "issued_date": "Jun 2018"
     },
-    {
-        "id": 12,
-        "title": "Introduction to Data Science in Python",
-        "issuer": "Coursera",
-        "issued_date": "Mar 2018"
-    },
+
     {
         "id": 13,
         "title": "Applied Machine Learning in Python",
