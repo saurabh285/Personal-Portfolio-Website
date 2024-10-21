@@ -93,7 +93,7 @@ export default function MyPortfolio() {
                                         smooth={true}
                                         offset={-70}
                                         duration={500}
-                                        to="Contact"
+                                        to="contactme"
                                         className="btn btn-outline-primary"
                                     >
                                         Get in touch to know more

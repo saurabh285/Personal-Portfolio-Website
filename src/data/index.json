@@ -7,46 +7,26 @@
                 "company": "Nanyang Technological University Singapore",
                 "time": "May 2024 – Present",
                 "place": "Singapore",
-                "task": [
-                    "Developed advanced data mining techniques for analyzing text, stickers, images, and videos on Telegram, improving data extraction and analysis efficiency.","Engineered large language models (Llama) to predict user roles and information dissemination patterns, enhancing the understanding of user behavior.", "Collaborated with multi-disciplinary research teams to deliver successful project outcomes while independently managing key tasks."
-                ]
+                "task": ["Spearheaded the computational analysis for the 'Information and Perception Analysis in Online Groups' project, leading LLM-based topic modeling, user role classification, and behavioral pattern analysis to enhance insights into user engagement.", "Engineered LLaMA model and applied NLP techniques for user role prediction and misinformation analysis, improving understanding of information dissemination and user behavior.", "Led a team of 4 research engineers and managed a climate change misinformation analysis on social media, developing an AI web scraper to detect and analyze false narratives."]
             },
             {
                 "id": 2,
-                "title": "Software Engineer – Full Stack    ",
-                "company": "Hewlett-Packard Enterprise",
-                "time": "Aug 2019 – Oct 2021",
-                "place": "Bengaluru, India",
-                "task": [
-                    "Led the development of StoreEasy Management Console (SEMC), improving software quality by 15% across 4 support program releases and reducing post-release bug reports by 34%.", "Engineered ETL pipelines and reusable UI components in React/Node.js, enhancing system robustness and user experience within cross-functional teams.", "Implemented Agile methodologies and CI/CD practices using GitHub and Jenkins, which resulted in a 40% reduction in time-to-market and increased international user engagement."
-
-                ]
-            },
-            {
-                "id": 3,
-                "title": "Research Assistant Intern",
+                "title": "Research Assistant",
                 "company": "NUS Human Computer Interaction Lab",
                 "time": "Jul 2022 – Nov 2023",
                 "place": "Singapore",
-                "task": [
-                    "Collaborated with PhDs and Research Assistants on Project Eye gaze, conducting experiments and user studies to analyze large eye gaze datasets and utilizing user gaze to mark boundaries in images.",
-                    "Conducted comparative analysis of ML models (SVM, Decision Trees) and neural network architectures (CNN, LSTM, Transformer) for EyeGaze improvement, achieving ~99% accuracy."
-                ]
+                "task": ["Developed an advanced eye gaze recognition model using graph neural networks and dynamic programming, achieving 98% precision and 97.67% accuracy on unseen data.", "Optimized data processing on a 10-gesture dataset, demonstrating superior performance over models like ANN, CNN, GRU, LSTM, and GCN."]
+            },
+            {
+                "id": 3,
+                "title": "Software Engineer - R&D",
+                "company": "Hewlett-Packard Enterprise",
+                "time": "Jan 2019 – Oct 2021",
+                "place": "Bengaluru, India",
+                "task": ["Led the development of HPE’s proprietary Storage Solution (SEMC), in 6 Support Program Releases and drastically reducing post-release bug reports by 34%.", "Actively collaborated with cross-functional teams to enhance system robustness and UX by using React/Node.js to engineer reusable UI components.", "Partnered with Japanese teams to implement localization for international customers, also leveraged Agile methodologies and CI/CD with GitHub and Jenkins.", "Designed UX interfaces, achieving 100% backlog clearance, and utilized Pytest, Grafana, and Kibana for testing and monitoring, ensuring high-quality software releases."]
             },
             {
                 "id": 4,
-                "title": "Software Engineer Intern – Full Stack",
-                "company": "Hewlett-Packard Enterprise",
-                "time": "Jan 2019 – Jul 2021",
-                "place": "Bengaluru, India",
-                "task": [
-                    "Designed and developed UX screens for SEMC using Invision, implemented on React JS for client-side development.",
-                    "Achieved 100% backlog defect clearance as a full stack developer refactoring existing legacy codebase.",
-                    "Leveraged Pytest for unit testing for quality assurance and Grafana/Kibana for system monitoring in 2 Feature Releases."
-                ]
-            },
-            {
-                "id": 5,
                 "title": "Software Developer Intern",
                 "company": "Webnish Software Solutions Pvt Ltd",
                 "time": "Jun 2017 – Jul 2017",
@@ -65,10 +45,9 @@
         "id": 1,
         "src": "./img/product-chain-1.png",
         "title": "Research",
-        "skills": "Graph neural Networks, Deep Neural Networks, Machine Learning, Dynamic Programming, Pandas & NumPy, Support vector Machines, Data Analysis, Pytorch.",
+        "skills": "Neural Networks,LLM, NLP, Machine Learning, Dynamic Programming, Pandas & NumPy, Support vector Machines, Data Analysis, Pytorch.",
         "description": [
-            "Thesis titled Eye-gaze Recognition model achieving a 98% accuracy rate using GCN, surpassing benchmarks like ANN and CNN.",
-            "Another thesis focused on detecting facial fraud, yielding a paper accepted by the International Journal of Engineering and Advanced Technology in 2019."
+            "I developed an advanced eye-gaze recognition model using Graph Neural Networks (GCN) and Dynamic Programming. My second thesis focused on detecting facial fraud. As a Research Engineer, I led computational analysis projects using LLM-based topic modeling and NLP techniques for user role prediction and misinformation analysis, including creating an AI web scraper to detect false narratives in climate change discussions on social media."
         ]
     },
     {

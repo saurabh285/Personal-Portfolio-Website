@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import doc from './Saurabh_Singh_CV.pdf'
+import doc from './SaurabhSingh_CV.pdf'
 import hpeImage from '../../data/HPE.png';
 import nusImage from '../../data/NUS.png';
 import ntuImage from '../../data/NTU.png';
