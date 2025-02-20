@@ -1501,7 +1501,7 @@ select {
 }
 
 .contactme--form button {
-  background-color: #007bff; /* Button color */
+  background-color: var(--heading-color); /* Button color */
   color: #fff;
   padding: 12px 24px;
   border-radius: 8px;

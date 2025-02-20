@@ -23,10 +23,10 @@ export default function HeroSection(){
                     <p className="hero--section--description">
                     <h11>Research Engineer</h11> at <h11>Nanyang Technological University, Singapore</h11>. 
                     <br></br>
-                    Holding a postgraduate degree in Artificial Intelligence from the 
+                    With a postgraduate degree in Artificial Intelligence from the 
                     <br></br>
                     <h11>National University of Singapore</h11>. 
-                        <br/> My expertise extends to impactful research in Neural Networks and machine learning, complemented by three years of hands-on experience in Software Engineering at <h11>Hewlett Packard Enterprise</h11>.
+                        <br/> My expertise spans Neural Networks, Machine Learning, and impactful research, backed by three years of Software Engineering experience at <h11>Hewlett Packard Enterprise</h11>.
                         <br/>
                         <br/>
                         <br/>

@@ -21,17 +21,20 @@ export default function ExperienceTimeline() {
     <h3 className='timeline-title'>{job.title}</h3>
     <div className='timeline-header'>
         <h4 className='timeline-company'>{job.company}</h4>
+        
         <button className='read-more' onClick={() => handleToggle(job.id)}>
             {expandedJobId === job.id ? "Read less" : "Read more"}
         </button>
+        
     </div>
+    <h4 className='timeline-place'>{job.place}</h4>
 </div>
 
 </div>
 
                         {expandedJobId === job.id && (
                             <div className='timeline-details'>
-                                <h4 className='timeline-place'>{job.place}</h4>
+                                
                                 <div className='timeline-tasks'>
                                     <b>Responsibilities:</b>
                                     <ul>
