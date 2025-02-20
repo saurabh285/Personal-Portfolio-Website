@@ -43,48 +43,41 @@
     "skills": [
     {
         "id": 1,
-        "src": "./img/product-chain-1.png",
+        "src": "./img/research.png",
         "title": "Research",
-        "skills": "Neural Networks,LLM, NLP, Machine Learning, Dynamic Programming, Pandas & NumPy, Support vector Machines, Data Analysis, Pytorch.",
+        "skills": "Neural Networks,LLM, NLP, Machine Learning, Dynamic Programming, Pandas & NumPy, Support vector Machines, Data Analysis, Sentiment Analysis, Pytorch.",
         "description": [
-            "I developed an advanced eye-gaze recognition model using Graph Neural Networks (GCN) and Dynamic Programming. My second thesis focused on detecting facial fraud. As a Research Engineer, I led computational analysis projects using LLM-based topic modeling and NLP techniques for user role prediction and misinformation analysis, including creating an AI web scraper to detect false narratives in climate change discussions on social media."
+            " "
         ]
     },
     {
         "id": 2,
-        "src": "./img/tag-1.png",
+        "src": "./img/ai.png",
         "title": "AI/ML",
         "skills": "NLP, LLM, Generative AI, Time series prediction, Big data analysis, SQL, Pytorch, Tensorflow.",
         "description": [
-            "I've tackled diverse projects, predicting crime rates in Chicago using Facebook Prophet.",
-            "Analyzed news trends with sentiment lexicon.",
-            "Created a Generative AI Self-Introduction App for real-time Q&A based on life narratives.",
-            "Engineered models for time series market prediction and LeNet image classification.",
-            "Designed an NLP project for spam message classification."
+           "  "
         ]
     },
     {
         "id": 3,
-        "src": "./img/feather-pen-1.png",
+        "src": "./img/software.png",
         "title": "Software Development",
-        "skills": "JavaScript, Node Js, React Js, C#, .Net, Jira, Jenkins, SQL.",
+        "skills": "JavaScript, Node Js, React Js, C#, .Net, Jira, Jenkins, SQL, Grafana, Git.",
         "description": [
-            "Experienced in software engineering, with development work on the StoreEasy Management Console at Hewlett Packard Enterprise.",
-            "Proficient in end-to-end website development through a web developer internship at Webnish Software Solutions.",
-            "Contributed to implementing CI/CD practices, fostering international user engagement, and adding new features in multiple program releases."
+            " "
         ]
     },
     {
         "id": 4,
-        "src": "./img/feather-pen-2.png",
-        "title": "UI/UX",
-        "skills": "Figma, Invision, JavaScript, React Js, Jenkins.",
+        "src": "./img/devops.png",
+        "title": "Dev/MLOps & Cloud",
+        "skills": "MLFLOW, DVC, Dagshub, AWS EC2, AWS Sagemaker, Docker, AIRFLOW ETL Pipeline.",
         "description": [
-            "As a full-stack developer, I bring expertise in UX/UI design, unit testing, and system observability.",
-            "Designed UX/UI for the SEMC on Invision and Figma.",
-            "Developed on React JS across 2 Support Program Releases."
+            "  "
         ]
     }
+    
 ],
 "certifications": [
     {
@@ -186,6 +179,14 @@
         {
 
             "id": 5,
+            "src": "./img/chatwithpdf.png",
+            "title": "Chat With PDF (Gemini Pro)",
+            "description": "Built an intelligent invoice processing tool that extracts and interprets multilingual invoice data using an LLM, allowing users to query and retrieve structured information efficiently.",
+            "link": "https://github.com/saurabh285/Chat-with-PDF"
+        },
+        {
+
+            "id": 6,
             "src": "./img/p3.jpeg",
             "title": "Generative AI self introduction APP",
             "description": "Implemented a personal interactive language model(LLM) application, enabling users to engage in real-time Q&A sessions with dynamically generated responses based on a life narrative text file.",

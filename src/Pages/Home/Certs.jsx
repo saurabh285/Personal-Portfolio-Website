@@ -18,7 +18,7 @@ export default function Certifications() {
                     cards.forEach((card, index) => {
                         setTimeout(() => {
                             card.classList.add('animate');
-                        }, index * 300);
+                        }, index * 3);
                     });
                     observer.unobserve(entry.target);
                 }

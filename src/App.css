@@ -66,7 +66,7 @@ p {
 }
 .btn-outline-primary:hover {
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--heading-color);
 }
 .btn-primary {
     color: var(--white);
@@ -242,7 +242,7 @@ h11{
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 133.333px 85.333px 133.333px;
+    padding: 133.333px 85.333px 78.333px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
@@ -1008,10 +1008,11 @@ select {
 }
 
 .certifications--section--heading {
-  color: var(--heading-color);
+  color: black;
   font-size: 36px;
   font-weight: 700;
   line-height: 97px;
+  align-self: center;
 }
 
 /* Container Styles */
@@ -1300,10 +1301,11 @@ select {
 }
 
 .aboutme--section--heading {
-  color: #003d79;
+  color: black;
   font-size: 36px;
   font-weight: 700;
   line-height: 77px;
+  align-self: center;
 }
 
 .aboutme--section--container {
@@ -1439,7 +1441,7 @@ select {
 }
 
 .contactme--section--heading {
-  color: #003d79; /* Dark color for visibility */
+  color: black; /* Dark color for visibility */
   font-weight: 700;
   text-align: center;
   font-size: 36px;

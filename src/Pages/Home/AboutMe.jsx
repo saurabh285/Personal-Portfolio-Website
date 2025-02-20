@@ -45,9 +45,9 @@ export default function AboutMe() {
                 <div className='aboutme--section--card'>
                     <div className='aboutme--card'>
                         <p className='aboutme--section--description'>
-                            I'm a football enthusiast and former school team captain, excelling in zonals and inter-state tournaments. In college, I delved into fitness through running and swimming, completing a biathlon and multiple 10k runs. Currently prepping for a half marathon.
+                        I'm a football enthusiast and former school team captain, competing at zonals and inter-state tournaments. In college, I took up running and swimming, completing a biathlon and multiple 10k runs, and I'm currently training for a half marathon. Beyond sports, I'm a self-taught musician, playing the harmonica and learning the guitar. I also have a deep love for food, always eager to explore new cuisines and discover hidden culinary gems. As the sports convener during my undergrad, I enjoyed bringing people together through events, fostering teamwork and a competitive spirit.
 
-                            A self-taught musician, I'm skilled in harmonica and navigating the guitar. Beyond that, I served as the sports convener during my undergrad, organizing various sporting events. Also, I'm a big foodie, always eager to savor new cuisines.
+My passion for AI and Machine Learning is driven by a desire to solve real-world problems. I specialize in LLMs, NLP, and Generative AI, working on projects ranging from misinformation detection to human-AI interaction. Whether it's building intelligent systems for social impact, developing cutting-edge research, or exploring the future of AI-driven automation, I thrive on pushing the boundaries of innovation and turning complex challenges into solutions. 🚀
                         </p>
                     </div>
                 </div>
