@@ -44,7 +44,7 @@ export default function Certifications() {
                 {certifications.map((cert) => (
                     <div key={cert.id} className='certifications--section--card'>
                         <div className='certifications--card'>
-                            <h3 className='certifications--section--title'>{cert.title}</h3>
+                            <p className='certifications--section--title'>{cert.title}</p>
                             <div className="tooltip">
                                 <span className="tooltiptext">{cert.issuer} | {cert.issued_date}</span>
                             </div>

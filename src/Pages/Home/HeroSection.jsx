@@ -21,12 +21,12 @@ export default function HeroSection(){
 
                     </h1>
                     <p className="hero--section--description">
-                    <h11>Research Engineer</h11> at <h11>Nanyang Technological University, Singapore</h11>. 
+                    <b>Research Engineer</b> at <b>Nanyang Technological University, Singapore</b>. 
                     <br></br>
                     With a postgraduate degree in Artificial Intelligence from the 
                     <br></br>
-                    <h11>National University of Singapore</h11>. 
-                        <br/> My expertise spans Neural Networks, Machine Learning, and impactful research, backed by three years of Software Engineering experience at <h11>Hewlett Packard Enterprise</h11>.
+                    <b>National University of Singapore</b>. 
+                        <br/> My expertise spans Neural Networks, Machine Learning, and impactful research, backed by three years of Software Engineering experience at <br /><b>Hewlett Packard Enterprise</b>.
                         <br/>
                         <br/>
                         <br/>

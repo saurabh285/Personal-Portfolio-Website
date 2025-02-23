@@ -54,7 +54,7 @@
         "id": 2,
         "src": "./img/ai.png",
         "title": "AI/ML",
-        "skills": "NLP, LLM, Generative AI, Time series prediction, Big data analysis, SQL, Pytorch, Tensorflow.",
+        "skills": "NLP, LLM, Generative AI, Time series prediction, Big data analysis, Pytorch, Tensorflow.",
         "description": [
            "  "
         ]
@@ -161,6 +161,27 @@
             "description": "Developed a facial fraud detection strategy for authentication systems by analyzing component characteristics and managing large datasets using OpenCV. Applied feature extraction methods (CoALBP, LBP, LPQ, BSIF, SIFT), clustered data with machine learning algorithms, and visualized results in 2D/3D plots on MATLAB. Conducted quantitative image analysis and published findings in the International Journal of Engineering and Advanced Technology, 2019."
         },
         {
+            "id": 9,
+            "src": "./img/ATS.png",
+            "title": "ATS Resume Expert",
+            "description": "Built a Streamlit web application that evaluates resumes against job descriptions using Google Gemini AI. The app provides ATS match scores, skill improvement suggestions, and keyword analysis while supporting PDF-based resume parsing and analysis.",
+            "link": "https://github.com/saurabh285/ATS-Tracker"
+        },
+        {
+            "id": 7,
+            "src": "./img/invextapp.png",
+            "title": "Multilanguage Invoice Extractor",
+            "description": "Developed an AI-powered tool that extracts insights from invoices in multiple languages using Google’s Gemini Pro LLM. The application supports image and PDF processing, leverages FAISS & ChromaDB for efficient text retrieval, and provides a secure and interactive experience via Streamlit.",
+            "link": "https://github.com/saurabh285/Multi-Language-Invoice-Extractor"
+        },
+        {
+            "id": 8,
+            "src": "./img/MLAPP.png",
+            "title": "ML Regression Web App",
+            "description": "Created a Streamlit-based web app that enables users to perform regression analysis on uploaded datasets. The app supports multiple regression models, feature selection, hyperparameter tuning, and model performance visualization based on MAE, MSE, RMSE, and R² Score.",
+            "link": "https://github.com/saurabh285/ML-Regression-App"
+        },  
+        {
 
             "id": 3,
             "src": "./img/pr1.png",
@@ -192,6 +213,8 @@
             "description": "Implemented a personal interactive language model(LLM) application, enabling users to engage in real-time Q&A sessions with dynamically generated responses based on a life narrative text file.",
             "link": "https://github.com/saurabh285/Generative-AI-Self-Introduction-App"
         }
+       
+
     ],
     "portfolio2":[
         {
