@@ -23,6 +23,7 @@ export default function Portfolio() {
                         <img src={project.src} alt={project.title} className='portfolio-image thesis-image' />
                         <div className='portfolio-content'>
                             <h3 className='portfolio-title'>{project.title}</h3>
+                            
                             <button className="read-more-btn" onClick={() => handleToggle(project.id)}>
                                 {selectedProject === project.id ? "Read Less" : "Read More"}
                             </button>
@@ -41,7 +42,10 @@ export default function Portfolio() {
                 ))}
             </div>
 
-            <h3 className='portfolio-subheading'>Projects</h3><br />
+            <h3 className='portfolio-subheading'>Projects</h3>
+            <div className="live-projects-container">
+            <h3 className="live-projects-heading">Try out My Live Projects</h3>
+        </div><br />
             <div className='portfolio-container projects-container'>
                 {otherProjects.map((project) => (
                     <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`}>
@@ -192,6 +196,25 @@ export default function Portfolio() {
                 .live-badge:hover {
                     background-color: darkred;
                 }
+                 .live-projects-container {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .live-projects-heading {
+        font-size: 1.0rem;
+        font-weight: bold;
+        color: #003d79;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: linear-gradient(90deg, #003d79, #003d79);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
             `}</style>
         </section>
     );
