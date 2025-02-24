@@ -173,7 +173,8 @@
             "src": "./img/invextapp.png",
             "title": "Multilanguage Invoice Extractor",
             "description": "Developed an AI-powered tool that extracts insights from invoices in multiple languages using Google’s Gemini Pro LLM. The application supports image and PDF processing, leverages FAISS & ChromaDB for efficient text retrieval, and provides a secure and interactive experience via Streamlit.",
-            "link": "https://github.com/saurabh285/Multi-Language-Invoice-Extractor"
+            "link": "https://github.com/saurabh285/Multi-Language-Invoice-Extractor",
+            "live": "https://multi-language-invoice-extractor.streamlit.app/"
         },
         {
             "id": 8,
@@ -205,7 +206,8 @@
             "src": "./img/chatwithpdf.png",
             "title": "Chat With PDF (Gemini Pro)",
             "description": "Built an intelligent invoice processing tool that extracts and interprets multilingual invoice data using an LLM, allowing users to query and retrieve structured information efficiently.",
-            "link": "https://github.com/saurabh285/Chat-with-PDF"
+            "link": "https://github.com/saurabh285/Chat-with-PDF",
+            "live":"https://qnawithpdf.streamlit.app/"
         },
         {
 
