@@ -17,24 +17,24 @@ export default function ExperienceTimeline() {
                     <div key={job.id} className='timeline-card' onClick={() => handleToggle(job.id)}>
                         <div className='timeline-date'>{job.time}</div>
                         <div className='timeline-info'>
-                        <div className='timeline-info'>
-    <h3 className='timeline-title'>{job.title}</h3>
-    <div className='timeline-header'>
-        <h4 className='timeline-company'>{job.company}</h4>
-        
-        <button className='read-more' onClick={() => handleToggle(job.id)}>
-            {expandedJobId === job.id ? "Read less" : "Read more"}
-        </button>
-        
-    </div>
-    <h4 className='timeline-place'>{job.place}</h4>
-</div>
+                            <div className='timeline-info'>
+                                <h3 className='timeline-title'>{job.title}</h3>
+                                <div className='timeline-header'>
+                                    <h4 className='timeline-company'>{job.company}</h4>
 
-</div>
+                                    <button className='read-more' onClick={() => handleToggle(job.id)}>
+                                        {expandedJobId === job.id ? "Read less" : "Read more"}
+                                    </button>
+
+                                </div>
+                                <h4 className='timeline-place'>{job.place}</h4>
+                            </div>
+
+                        </div>
 
                         {expandedJobId === job.id && (
                             <div className='timeline-details'>
-                                
+
                                 <div className='timeline-tasks'>
                                     <b>Responsibilities:</b>
                                     <ul>
@@ -153,71 +153,3 @@ export default function ExperienceTimeline() {
         </section>
     );
 }
-// import { useEffect } from 'react';
-// import data from '../../data/index.json';
-
-// export default function Experience() {
-//     const jobs = data.jobs[0] || [];
-
-//     useEffect(() => {
-//         const observerOptions = {
-//             root: null,
-//             rootMargin: '0px',
-//             threshold: 0.1
-//         };
-
-//         const observer = new IntersectionObserver((entries) => {
-//             entries.forEach(entry => {
-//                 if (entry.isIntersecting) {
-//                     const cards = entry.target.querySelectorAll('.experience--section--card');
-//                     cards.forEach((card, index) => {
-//                         setTimeout(() => {
-//                             card.classList.add('animate');
-//                         }, index * 600);
-//                     });
-//                     observer.unobserve(entry.target);
-//                 }
-//             });
-//         }, observerOptions);
-
-//         const section = document.querySelector('.experience--section');
-//         if (section) {
-//             observer.observe(section);
-//         }
-
-//         return () => {
-//             if (section) {
-//                 observer.unobserve(section);
-//             }
-//         };
-//     }, []);
-
-//     const isLastJobCentered = jobs.length % 2 === 1; // Check if the last job needs centering
-
-//     return (
-//         <section className='experience--section' id='experience'>
-//             <h2 className='experience--section--heading'>Work Experience</h2>
-//             <div className={`experience--section--container ${isLastJobCentered ? 'centered' : ''}`}>
-//                 {jobs.map((job) => (
-//                     <div key={job.id} className='experience--section--card'>
-//                         <div className='experience--card'>
-//                             <h3 className='experience--section--title'>{job.title}</h3>
-//                             <h4 className='experience--section--company' style={{ fontStyle: 'italic' }}>{job.company}</h4>
-//                             <h4 className='experience--section--time' style={{ fontStyle: 'italic' }}>{job.time}</h4>
-//                             <h4 className='experience--section--place' style={{ fontStyle: 'italic' }}>{job.place}</h4>
-//                             <br/>
-//                             <div className='experience--section--tasks'>
-//                                 <b>Responsibilities:</b>
-//                                 <ul>
-//                                     {job.task.map((task, index) => (
-//                                         <li key={index}>{task}</li>
-//                                     ))}
-//                                 </ul>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 ))}
-//             </div>
-//         </section>
-//     );
-// }

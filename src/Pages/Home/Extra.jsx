@@ -40,7 +40,7 @@ export default function AboutMe() {
 
     return (
         <section className='aboutme--section' id='aboutme'>
-            <h2 className='aboutme--section--heading'>About Me & Sports</h2>
+            <h2 className='aboutme--section--heading'>More Than AI: My Story & Interests</h2>
             <div className='aboutme--section--container'>
                 <div className='aboutme--section--card'>
                     <div className='aboutme--card'>

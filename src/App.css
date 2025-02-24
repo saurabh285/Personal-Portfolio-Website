@@ -242,7 +242,7 @@ h11{
 .hero--section {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 133.333px 85.333px 78.333px;
+    padding: 120.333px 85.333px 78.333px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;

@@ -72,7 +72,7 @@
         "id": 4,
         "src": "./img/devops.png",
         "title": "Dev/MLOps & Cloud",
-        "skills": "MLFLOW, DVC, Dagshub, AWS EC2, AWS Sagemaker, Docker, AIRFLOW ETL Pipeline.",
+        "skills": "MLFLOW, DVC, Dagshub, AWS EC2, AWS Sagemaker, Docker, Kubernetes, AIRFLOW ETL Pipeline.",
         "description": [
             "  "
         ]
@@ -165,7 +165,8 @@
             "src": "./img/ATS.png",
             "title": "ATS Resume Expert",
             "description": "Built a Streamlit web application that evaluates resumes against job descriptions using Google Gemini AI. The app provides ATS match scores, skill improvement suggestions, and keyword analysis while supporting PDF-based resume parsing and analysis.",
-            "link": "https://github.com/saurabh285/ATS-Tracker"
+            "link": "https://github.com/saurabh285/ATS-Tracker",
+            "live": "https://personalats.streamlit.app/"
         },
         {
             "id": 7,
@@ -179,7 +180,8 @@
             "src": "./img/MLAPP.png",
             "title": "ML Regression Web App",
             "description": "Created a Streamlit-based web app that enables users to perform regression analysis on uploaded datasets. The app supports multiple regression models, feature selection, hyperparameter tuning, and model performance visualization based on MAE, MSE, RMSE, and R² Score.",
-            "link": "https://github.com/saurabh285/ML-Regression-App"
+            "link": "https://github.com/saurabh285/ML-Regression-App",
+            "live":"https://ml-regression-app.streamlit.app/"
         },  
         {
 

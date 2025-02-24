@@ -118,7 +118,7 @@ function Navbar() {
               to="aboutme"
               className="navbar--content"
             >
-              About Me & Sports
+              About Me
             </Link>
           </li>
           {/* <li>

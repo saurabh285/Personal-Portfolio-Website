@@ -15,47 +15,62 @@ export default function Portfolio() {
     return (
         <section className='portfolio-section' id='MyPortfolio'>
             <h2 className='portfolio-heading'>Research and Projects</h2>
-            
-            <h3 className='portfolio-subheading'>Thesis</h3><br></br>
+
+            <h3 className='portfolio-subheading'>Thesis</h3><br />
             <div className='portfolio-container thesis-container'>
                 {thesisProjects.map((project) => (
-                    <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`} onClick={() => handleToggle(project.id)}>
+                    <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`}>
                         <img src={project.src} alt={project.title} className='portfolio-image thesis-image' />
                         <div className='portfolio-content'>
                             <h3 className='portfolio-title'>{project.title}</h3>
+                            <button className="read-more-btn" onClick={() => handleToggle(project.id)}>
+                                {selectedProject === project.id ? "Read Less" : "Read More"}
+                            </button>
                         </div>
-                        <div className={`portfolio-details ${selectedProject === project.id ? 'show' : ''}`}>
-                            <p>{project.description}</p>
-                            {project.link && (
-                                <a href={project.link} className='portfolio-link' target='_blank' rel='noopener noreferrer'>
-                                    View Project
-                                </a>
-                            )}
-                        </div>
+                        {selectedProject === project.id && (
+                            <div className="portfolio-details">
+                                <p>{project.description}</p>
+                                {project.link && (
+                                    <a href={project.link} className='portfolio-link' target='_blank' rel='noopener noreferrer'>
+                                        View Project
+                                    </a>
+                                )}
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
-            
-            <h3 className='portfolio-subheading'>Projects</h3><br></br>
+
+            <h3 className='portfolio-subheading'>Projects</h3><br />
             <div className='portfolio-container projects-container'>
                 {otherProjects.map((project) => (
-                    <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`} onClick={() => handleToggle(project.id)}>
+                    <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`}>
                         <img src={project.src} alt={project.title} className='portfolio-image' />
                         <div className='portfolio-content'>
                             <h3 className='portfolio-title'>{project.title}</h3>
-                        </div>
-                        <div className={`portfolio-details ${selectedProject === project.id ? 'show' : ''}`}>
-                            <p>{project.description}</p>
-                            {project.link && (
-                                <a href={project.link} className='portfolio-link' target='_blank' rel='noopener noreferrer'>
-                                    View Project
+                            <button className="read-more-btn" onClick={() => handleToggle(project.id)}>
+                                {selectedProject === project.id ? "Read Less" : "Read More"}
+                            </button>
+                            {project.live && (
+                                <a href={project.live} className="live-badge" target="_blank" rel="noopener noreferrer">
+                                    LIVE
                                 </a>
                             )}
                         </div>
+                        {selectedProject === project.id && (
+                            <div className="portfolio-details">
+                                <p>{project.description}</p>
+                                {project.link && (
+                                    <a href={project.link} className='portfolio-link' target='_blank' rel='noopener noreferrer'>
+                                        View Project
+                                    </a>
+                                )}
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
-            
+
             <style jsx>{`
                 .portfolio-section {
                     padding: 2rem;
@@ -93,8 +108,6 @@ export default function Portfolio() {
                     padding: 1rem;
                     border-radius: 10px;
                     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-                    cursor: pointer;
-                    transition: transform 0.2s ease-in-out;
                     text-align: center;
                     display: flex;
                     flex-direction: column;
@@ -106,9 +119,10 @@ export default function Portfolio() {
                     position: relative;
                     overflow: hidden;
                     height: auto;
+                    transition: transform 0.2s ease-in-out; /* Keeps the hover effect */
                 }
                 .portfolio-card:hover {
-                    transform: scale(1.03);
+                    transform: scale(1.03); /* Hover effect remains */
                 }
                 .portfolio-image {
                     width: 100%;
@@ -131,19 +145,14 @@ export default function Portfolio() {
                 }
                 .portfolio-title {
                     font-size: 1.2rem;
-                    margin-top: 0.5rem;
-                    text-align: center;
                 }
                 .portfolio-details {
                     background: white;
                     padding: 1rem;
                     text-align: justify;
                     width: 100%;
-                    display: none;
-                    position: relative;
-                }
-                .portfolio-card.expanded .portfolio-details {
                     display: block;
+                    position: relative;
                 }
                 .portfolio-link {
                     display: inline-block;
@@ -154,6 +163,34 @@ export default function Portfolio() {
                 }
                 .portfolio-link:hover {
                     text-decoration: underline;
+                }
+                .read-more-btn {
+                    background: none;
+                    border: none;
+                    color: #003d79;
+                    font-size: 14px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin-top: 5px;
+                    transition: color 0.3s ease-in-out;
+                }
+                .read-more-btn:hover {
+                    color: #0056b3;
+                }
+                .live-badge {
+                    display: inline-block;
+                    background-color: red;
+                    color: white;
+                    font-size: 12px;
+                    font-weight: bold;
+                    padding: 4px 10px;
+                    margin-top: 5px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    transition: background 0.3s ease-in-out;
+                }
+                .live-badge:hover {
+                    background-color: darkred;
                 }
             `}</style>
         </section>
