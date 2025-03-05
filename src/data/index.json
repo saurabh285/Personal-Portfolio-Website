@@ -162,6 +162,14 @@
         },
         {
             "id": 9,
+            "src": "./img/AIAgentproject.png",
+            "title": "AI Research Agent using Gemini 1.5 Flash",
+            "description": "An AI-Agent research app that fetches news articles, summarizes key points, and answers user queries using Gemini 1.5 Flash, with a Streamlit-based interactive UI for seamless user experience.",
+            "link": "https://github.com/saurabh285/AI-Agent-Researcher",
+            "live": "https://ai-agent-researcher.streamlit.app/"
+        },
+        {
+            "id": 9,
             "src": "./img/ATS.png",
             "title": "ATS Resume Expert",
             "description": "Built a Streamlit web application that evaluates resumes against job descriptions using Google Gemini AI. The app provides ATS match scores, skill improvement suggestions, and keyword analysis while supporting PDF-based resume parsing and analysis.",
