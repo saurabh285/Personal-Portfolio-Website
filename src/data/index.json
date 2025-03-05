@@ -161,6 +161,14 @@
             "description": "Developed a facial fraud detection strategy for authentication systems by analyzing component characteristics and managing large datasets using OpenCV. Applied feature extraction methods (CoALBP, LBP, LPQ, BSIF, SIFT), clustered data with machine learning algorithms, and visualized results in 2D/3D plots on MATLAB. Conducted quantitative image analysis and published findings in the International Journal of Engineering and Advanced Technology, 2019."
         },
         {
+
+            "id": 7,
+            "src": "./img/AIagent.png",
+            "title": "AI Multi Agent Productivity Assistant",
+            "description": "A multi-agent system that automates email management, meeting scheduling, and research summarization using AI-powered agents. With a Streamlit UI, users can seamlessly run AI tasks, generate insights, and boost efficiency effortlessly!",
+            "link": "https://github.com/saurabh285/AI-Multi-agent-Project/tree/main"
+        },
+        {
             "id": 3,
             "src": "./img/AIAgentproject.png",
             "title": "AI Research Agent using Gemini 1.5 Flash",
@@ -192,14 +200,7 @@
             "link": "https://github.com/saurabh285/ML-Regression-App",
             "live":"https://ml-regression-app.streamlit.app/"
         },  
-        {
-
-            "id": 7,
-            "src": "./img/pr1.png",
-            "title": "Time Series Prediction",
-            "description": "Developed a comprehensive time series prediction model for crime rates in Chicago (2001-2017) using Facebook Prophet",
-            "link": "https://github.com/saurabh285/Time-series-crime-prediction"
-        },
+       
         {
 
             "id": 8,
@@ -224,6 +225,14 @@
             "title": "Generative AI self introduction APP",
             "description": "Implemented a personal interactive language model(LLM) application, enabling users to engage in real-time Q&A sessions with dynamically generated responses based on a life narrative text file.",
             "link": "https://github.com/saurabh285/Generative-AI-Self-Introduction-App"
+        },
+        {
+
+            "id": 11,
+            "src": "./img/pr1.png",
+            "title": "Time Series Prediction",
+            "description": "Developed a comprehensive time series prediction model for crime rates in Chicago (2001-2017) using Facebook Prophet",
+            "link": "https://github.com/saurabh285/Time-series-crime-prediction"
         }
        
 
