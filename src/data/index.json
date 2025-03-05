@@ -161,7 +161,7 @@
             "description": "Developed a facial fraud detection strategy for authentication systems by analyzing component characteristics and managing large datasets using OpenCV. Applied feature extraction methods (CoALBP, LBP, LPQ, BSIF, SIFT), clustered data with machine learning algorithms, and visualized results in 2D/3D plots on MATLAB. Conducted quantitative image analysis and published findings in the International Journal of Engineering and Advanced Technology, 2019."
         },
         {
-            "id": 9,
+            "id": 3,
             "src": "./img/AIAgentproject.png",
             "title": "AI Research Agent using Gemini 1.5 Flash",
             "description": "An AI-Agent research app that fetches news articles, summarizes key points, and answers user queries using Gemini 1.5 Flash, with a Streamlit-based interactive UI for seamless user experience.",
@@ -169,7 +169,7 @@
             "live": "https://ai-agent-researcher.streamlit.app/"
         },
         {
-            "id": 9,
+            "id": 4,
             "src": "./img/ATS.png",
             "title": "ATS Resume Expert",
             "description": "Built a Streamlit web application that evaluates resumes against job descriptions using Google Gemini AI. The app provides ATS match scores, skill improvement suggestions, and keyword analysis while supporting PDF-based resume parsing and analysis.",
@@ -177,7 +177,7 @@
             "live": "https://personalats.streamlit.app/"
         },
         {
-            "id": 7,
+            "id": 5,
             "src": "./img/invextapp.png",
             "title": "Multilanguage Invoice Extractor",
             "description": "Developed an AI-powered tool that extracts insights from invoices in multiple languages using Google’s Gemini Pro LLM. The application supports image and PDF processing, leverages FAISS & ChromaDB for efficient text retrieval, and provides a secure and interactive experience via Streamlit.",
@@ -185,7 +185,7 @@
             "live": "https://multi-language-invoice-extractor.streamlit.app/"
         },
         {
-            "id": 8,
+            "id": 6,
             "src": "./img/MLAPP.png",
             "title": "ML Regression Web App",
             "description": "Created a Streamlit-based web app that enables users to perform regression analysis on uploaded datasets. The app supports multiple regression models, feature selection, hyperparameter tuning, and model performance visualization based on MAE, MSE, RMSE, and R² Score.",
@@ -194,7 +194,7 @@
         },  
         {
 
-            "id": 3,
+            "id": 7,
             "src": "./img/pr1.png",
             "title": "Time Series Prediction",
             "description": "Developed a comprehensive time series prediction model for crime rates in Chicago (2001-2017) using Facebook Prophet",
@@ -202,7 +202,7 @@
         },
         {
 
-            "id": 4,
+            "id": 8,
             "src": "./img/p2.png",
             "title": "Big data News analysis",
             "description": "Designed project analyzing social media trends in news topics, utilizing sentiment lexicon and clustering",
@@ -210,7 +210,7 @@
         },
         {
 
-            "id": 5,
+            "id": 9,
             "src": "./img/chatwithpdf.png",
             "title": "Chat With PDF (Gemini Pro)",
             "description": "Built an intelligent invoice processing tool that extracts and interprets multilingual invoice data using an LLM, allowing users to query and retrieve structured information efficiently.",
@@ -219,7 +219,7 @@
         },
         {
 
-            "id": 6,
+            "id": 10,
             "src": "./img/p3.jpeg",
             "title": "Generative AI self introduction APP",
             "description": "Implemented a personal interactive language model(LLM) application, enabling users to engage in real-time Q&A sessions with dynamically generated responses based on a life narrative text file.",
