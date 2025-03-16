@@ -162,14 +162,22 @@
         },
         {
 
-            "id": 7,
+            "id": 12,
+            "src": "./img/strava.png",
+            "title": "AI-Powered Fitness Recommender & Performance Predictor",
+            "description": "A web-based recommendation system application that integrates Strava API and AI-powered analysis to provide personalized workout recommendations, training plans, and performance predictions",
+            "link": "https://github.com/saurabh285/Personalised-Fitness-Recommender-System-Using-Strava-Data"
+        },
+        {
+
+            "id": 3,
             "src": "./img/AIagent.png",
             "title": "AI Multi Agent Productivity Assistant",
             "description": "A multi-agent system that automates email management, meeting scheduling, and research summarization using AI-powered agents. With a Streamlit UI, users can seamlessly run AI tasks, generate insights, and boost efficiency effortlessly!",
             "link": "https://github.com/saurabh285/AI-Multi-agent-Project/tree/main"
         },
         {
-            "id": 3,
+            "id": 4,
             "src": "./img/AIAgentproject.png",
             "title": "AI Research Agent using Gemini 1.5 Flash",
             "description": "An AI-Agent research app that fetches news articles, summarizes key points, and answers user queries using Gemini 1.5 Flash, with a Streamlit-based interactive UI for seamless user experience.",
@@ -177,7 +185,7 @@
             "live": "https://ai-agent-researcher.streamlit.app/"
         },
         {
-            "id": 4,
+            "id": 5,
             "src": "./img/ATS.png",
             "title": "ATS Resume Expert",
             "description": "Built a Streamlit web application that evaluates resumes against job descriptions using Google Gemini AI. The app provides ATS match scores, skill improvement suggestions, and keyword analysis while supporting PDF-based resume parsing and analysis.",
@@ -185,7 +193,7 @@
             "live": "https://personalats.streamlit.app/"
         },
         {
-            "id": 5,
+            "id": 6,
             "src": "./img/invextapp.png",
             "title": "Multilanguage Invoice Extractor",
             "description": "Developed an AI-powered tool that extracts insights from invoices in multiple languages using Google’s Gemini Pro LLM. The application supports image and PDF processing, leverages FAISS & ChromaDB for efficient text retrieval, and provides a secure and interactive experience via Streamlit.",
@@ -193,7 +201,7 @@
             "live": "https://multi-language-invoice-extractor.streamlit.app/"
         },
         {
-            "id": 6,
+            "id": 7,
             "src": "./img/MLAPP.png",
             "title": "ML Regression Web App",
             "description": "Created a Streamlit-based web app that enables users to perform regression analysis on uploaded datasets. The app supports multiple regression models, feature selection, hyperparameter tuning, and model performance visualization based on MAE, MSE, RMSE, and R² Score.",
