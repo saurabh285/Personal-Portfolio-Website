@@ -7,7 +7,7 @@
                 "company": "Nanyang Technological University Singapore",
                 "time": "May 2024 – Present",
                 "place": "Singapore",
-                "task": ["Spearheaded the computational analysis for the 'Information and Perception Analysis in Online Groups' project, leading LLM-based topic modeling, user role classification, and behavioral pattern analysis to enhance insights into user engagement.", "Engineered LLaMA model and applied NLP techniques for user role prediction and misinformation analysis, improving understanding of information dissemination and user behavior.", "Led a team of 4 research engineers and managed a climate change misinformation analysis on social media, developing an AI web scraper to detect and analyze false narratives."]
+                "task": ["Led the computational analysis for the ’Information and Perception Analysis in Online Groups’ project, Developed an LLM-powered system for discourse detection, author classification, and network analysis. ", "Developed a machine learning framework using user roles, topics, and sentiment trends with 90.91% accuracy in predicting sentiment shifts.", "Led a team of research engineers and assistants, and managed a climate change misinformation analysis on social media, developing an AI web scraper to detect and analyze false narratives."]
             },
             {
                 "id": 2,
@@ -15,7 +15,7 @@
                 "company": "NUS Human Computer Interaction Lab",
                 "time": "Jul 2022 – Nov 2023",
                 "place": "Singapore",
-                "task": ["Developed an advanced eye gaze recognition model using graph neural networks and dynamic programming, achieving 98% precision and 97.67% accuracy on unseen data.", "Optimized data processing on a 10-gesture dataset, demonstrating superior performance over models like ANN, CNN, GRU, LSTM, and GCN."]
+                "task": ["Developed an advanced eye gaze recognition model utilizing graph neural networks and progressive optimization, achieving 98% precision.", "Enhanced data processing on a 10-gesture dataset, achieving 97.67% accuracy on unseen data.", "Benchmarked model performance against ANN, CNN, GRU, and LSTM, achieving a 4% improvement in accuracy."]
             },
             {
                 "id": 3,
@@ -23,7 +23,7 @@
                 "company": "Hewlett-Packard Enterprise",
                 "time": "Jan 2019 – Oct 2021",
                 "place": "Bengaluru, India",
-                "task": ["Led the development of HPE’s proprietary Storage Solution (SEMC), in 6 Support Program Releases and drastically reducing post-release bug reports by 34%.", "Actively collaborated with cross-functional teams to enhance system robustness and UX by using React/Node.js to engineer reusable UI components.", "Partnered with Japanese teams to implement localization for international customers, also leveraged Agile methodologies and CI/CD with GitHub and Jenkins.", "Designed UX interfaces, achieving 100% backlog clearance, and utilized Pytest, Grafana, and Kibana for testing and monitoring, ensuring high-quality software releases."]
+                "task": ["Drove the development of HPE’s proprietary Storage Solution (SEMC), in 6 Support Program Releases and drastically reducing post-release bug reports by 34%.", "Actively collaborated with cross-functional teams to enhance system robustness and UX by using React/Node.js to engineer reusable UI components.", "Partnered with Japanese teams to implement localization for international customers, also leveraged Agile methodologies and CI/CD with GitHub and Jenkins.", "Designed UX interfaces, achieving 100% backlog clearance, and utilized Pytest, Grafana, and Kibana for testing and monitoring, ensuring high-quality software releases."]
             },
             {
                 "id": 4,
