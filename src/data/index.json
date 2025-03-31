@@ -170,6 +170,14 @@
         },
         {
 
+            "id": 13,
+            "src": "./img/scalablellm.png",
+            "title": "Scalable & Low Latency LLM QnA Bot",
+            "description": "A Retrieval-Augmented Generation (RAG) QnA built to provide low-latency, scalable question-answering capabilities using various technologies, including Redis, FAISS, and Gemini (Google’s LLM). It uses FastAPI, Gunicorn, and Uvicorn to handle asynchronous, multi-worker scalable requests and is deployed using Docker for easy orchestration",
+            "link": "https://github.com/saurabh285/scalable-low-latency-LLM"
+        },
+        {
+
             "id": 3,
             "src": "./img/AIagent.png",
             "title": "AI Multi Agent Productivity Assistant",
