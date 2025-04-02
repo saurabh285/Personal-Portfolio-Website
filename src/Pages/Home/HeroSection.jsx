@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import LinkedIn & GitHub icons
-import doc from './SaurabhSingh_CV.pdf';
+import doc from './SaurabhSingh_Resume.pdf';
 import hpeImage from '../../data/HPE.png';
 import nusImage from '../../data/NUS.png';
 import ntuImage from '../../data/NTU.png';
