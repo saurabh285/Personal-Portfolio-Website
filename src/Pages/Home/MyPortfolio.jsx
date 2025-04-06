@@ -14,35 +14,11 @@ export default function Portfolio() {
 
     return (
         <section className='portfolio-section' id='MyPortfolio'>
-            <h2 className='portfolio-heading'>Research and Projects</h2>
+            <h2 className='portfolio-heading'>AI Projects & Applied Research</h2>
 
-            <h3 className='portfolio-subheading'>Thesis</h3><br />
-            <div className='portfolio-container thesis-container'>
-                {thesisProjects.map((project) => (
-                    <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`}>
-                        <img src={project.src} alt={project.title} className='portfolio-image thesis-image' />
-                        <div className='portfolio-content'>
-                            <h3 className='portfolio-title'>{project.title}</h3>
-                            
-                            <button className="read-more-btn" onClick={() => handleToggle(project.id)}>
-                                {selectedProject === project.id ? "Read Less" : "Read More"}
-                            </button>
-                        </div>
-                        {selectedProject === project.id && (
-                            <div className="portfolio-details">
-                                <p>{project.description}</p>
-                                {project.link && (
-                                    <a href={project.link} className='portfolio-link' target='_blank' rel='noopener noreferrer'>
-                                        View Project
-                                    </a>
-                                )}
-                            </div>
-                        )}
-                    </div>
-                ))}
-            </div>
+            
 
-            <h3 className='portfolio-subheading'>Projects</h3>
+            <h3 className='portfolio-subheading'>GenAI, AI Agents, ML, Computer Vision</h3>
             <div className="live-projects-container">
             <h3 className="live-projects-heading">Try out My Live Projects</h3>
         </div><br />
@@ -74,7 +50,31 @@ export default function Portfolio() {
                     </div>
                 ))}
             </div>
-
+            <h3 className='portfolio-subheading'>Thesis</h3><br />
+            <div className='portfolio-container thesis-container'>
+                {thesisProjects.map((project) => (
+                    <div key={project.id} className={`portfolio-card ${selectedProject === project.id ? 'expanded' : ''}`}>
+                        <img src={project.src} alt={project.title} className='portfolio-image thesis-image' />
+                        <div className='portfolio-content'>
+                            <h3 className='portfolio-title'>{project.title}</h3>
+                            
+                            <button className="read-more-btn" onClick={() => handleToggle(project.id)}>
+                                {selectedProject === project.id ? "Read Less" : "Read More"}
+                            </button>
+                        </div>
+                        {selectedProject === project.id && (
+                            <div className="portfolio-details">
+                                <p>{project.description}</p>
+                                {project.link && (
+                                    <a href={project.link} className='portfolio-link' target='_blank' rel='noopener noreferrer'>
+                                        View Project
+                                    </a>
+                                )}
+                            </div>
+                        )}
+                    </div>
+                ))}
+            </div>
             <style jsx>{`
                 .portfolio-section {
                     padding: 2rem;

@@ -87,7 +87,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Research & Projects
+              AI Projects & Applied Research
             </Link>
           </li>
           <li>

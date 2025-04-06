@@ -44,8 +44,8 @@
     {
         "id": 1,
         "src": "./img/research.png",
-        "title": "Research",
-        "skills": "Neural Networks,LLM, NLP, Machine Learning, Dynamic Programming, Pandas & NumPy, Support vector Machines, Data Analysis, Sentiment Analysis, Pytorch.",
+        "title": "Applied AI Research",
+        "skills": "LLMs, RAG Architectures, NLP,Vector Search (FAISS & Pinecone),  Sentiment Analysis, Misinformation Detection, Recommendation Systems, Time Series Forecasting",
         "description": [
             " "
         ]
@@ -53,8 +53,8 @@
     {
         "id": 2,
         "src": "./img/ai.png",
-        "title": "AI/ML",
-        "skills": "NLP, LLM, Generative AI, Time series prediction, Big data analysis, Pytorch, Tensorflow.",
+        "title": "Machine Learning & Generative AI",
+        "skills": "Python, PyTorch, TensorFlow, Scikit-Learn, Transformers, Prompt Engineering, Generative Agents",
         "description": [
            "  "
         ]
@@ -62,8 +62,8 @@
     {
         "id": 3,
         "src": "./img/software.png",
-        "title": "Software Development",
-        "skills": "JavaScript, Node Js, React Js, C#, .Net, Jira, Jenkins, SQL, Grafana, Git.",
+        "title": "Software Engineering & Dev Tools",
+        "skills": "JavaScript, Node.js, React, SQL, Git, Grafana, NoSQL, MongoDB",
         "description": [
             " "
         ]
@@ -71,8 +71,8 @@
     {
         "id": 4,
         "src": "./img/devops.png",
-        "title": "Dev/MLOps & Cloud",
-        "skills": "MLFLOW, DVC, Dagshub, AWS EC2, AWS Sagemaker, Docker, Kubernetes, AIRFLOW ETL Pipeline.",
+        "title": "MLOps & Cloud Infrastructure",
+        "skills": "Docker, Kubernetes, Airflow, MLflow, Jenkins, AWS EC2/S3/SageMaker, Azure",
         "description": [
             "  "
         ]
@@ -164,7 +164,7 @@
 
             "id": 12,
             "src": "./img/strava.png",
-            "title": "AI-Powered Fitness Recommender & Performance Predictor",
+            "title": "GenAI Fitness Recommender & Performance Predictor",
             "description": "A web-based recommendation system application that integrates Strava API and AI-powered analysis to provide personalized workout recommendations, training plans, and performance predictions",
             "link": "https://github.com/saurabh285/Personalised-Fitness-Recommender-System-Using-Strava-Data"
         },
@@ -172,9 +172,16 @@
 
             "id": 13,
             "src": "./img/scalablellm.png",
-            "title": "Scalable & Low Latency LLM QnA Bot",
+            "title": "Custom-Built Latency-Optimized & Scalable RAG Architecture",
             "description": "A Retrieval-Augmented Generation (RAG) QnA built to provide low-latency, scalable question-answering capabilities using various technologies, including Redis, FAISS, and Gemini (Google’s LLM). It uses FastAPI, Gunicorn, and Uvicorn to handle asynchronous, multi-worker scalable requests and is deployed using Docker for easy orchestration",
             "link": "https://github.com/saurabh285/scalable-low-latency-LLM"
+        },
+        {
+            "id": 14,
+            "src": "./img/ragagent.png",
+            "title": "Reflective RAG: An Agentic System with Adaptive Retrieval",
+            "description": "An Agentic RAG system that mimics human reasoning through intelligent query routing, adaptive retrieval, and self-reflective refinement. Uses DistilBERT, domain-specific vector stores, and Gemini 1.5 Flash for accurate multi-domain QnA.",
+            "link": "https://github.com/saurabh285/RAG-Agentic"
         },
         {
 
@@ -202,7 +209,7 @@
         },
         {
             "id": 6,
-            "src": "./img/invextapp.png",
+            "src": "./img/invoice.png",
             "title": "Multilanguage Invoice Extractor",
             "description": "Developed an AI-powered tool that extracts insights from invoices in multiple languages using Google’s Gemini Pro LLM. The application supports image and PDF processing, leverages FAISS & ChromaDB for efficient text retrieval, and provides a secure and interactive experience via Streamlit.",
             "link": "https://github.com/saurabh285/Multi-Language-Invoice-Extractor",
