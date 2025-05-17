@@ -161,6 +161,14 @@
             "description": "Developed a facial fraud detection strategy for authentication systems by analyzing component characteristics and managing large datasets using OpenCV. Applied feature extraction methods (CoALBP, LBP, LPQ, BSIF, SIFT), clustered data with machine learning algorithms, and visualized results in 2D/3D plots on MATLAB. Conducted quantitative image analysis and published findings in the International Journal of Engineering and Advanced Technology, 2019."
         },
         {
+            "id": 15,
+            "src": "./img/footballanalytics.png",
+            "title": "Intelligent Football Analytics with LLM Insights",
+            "description": "Blending my love for football with AI, I built a tool that analyzes player behavior using anomaly detection and LLM-generated insights. Explore interactive dashboards, Jupyter notebooks, and downloadable match data from 44 Liverpool games.",
+            "live": "https://footballanalytics.streamlit.app/",
+            "link":"https://github.com/saurabh285/Football-Analytics"
+        },
+        {
 
             "id": 12,
             "src": "./img/strava.png",
